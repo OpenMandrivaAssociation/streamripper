@@ -11,7 +11,6 @@ URL:		http://sourceforge.net/projects/streamripper
 License:	GPL
 
 Source0:	http://mesh.dl.sourceforge.net/sourceforge/streamripper/%{name}-%{version}.tar.bz2
-Buildroot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	libogg-devel
 BuildRequires:  libvorbis-devel
 
