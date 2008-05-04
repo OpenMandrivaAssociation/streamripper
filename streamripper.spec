@@ -1,5 +1,5 @@
 %define name	streamripper
-%define version 1.61.18
+%define version 1.63.0
 %define release %mkrel 3
 
 Summary:	Audio stream recorder
@@ -8,12 +8,15 @@ Version:	%{version}
 Release:	%{release}
 Group:		Sound
 URL:		http://sourceforge.net/projects/streamripper
-License:	GPL
+License:	GPLv2+
 
-Source0:	http://mesh.dl.sourceforge.net/sourceforge/streamripper/%{name}-%{version}.tar.bz2
+Source0:	http://mesh.dl.sourceforge.net/sourceforge/streamripper/%{name}-%{version}.tar.gz
 Buildroot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	libogg-devel
-BuildRequires:  libvorbis-devel
+BuildRequires:	libvorbis-devel
+BuildRequires:	libglib2-devel
+BuildRequires:	tre-devel
+BuildRequires:	libmad-devel
 
 %description
 Streamripper records shoutcast compatible and live365 streams.
