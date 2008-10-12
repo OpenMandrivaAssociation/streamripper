@@ -1,6 +1,6 @@
 %define name	streamripper
-%define version 1.63.0
-%define release %mkrel 4
+%define version 1.63.5
+%define release %mkrel 1
 
 Summary:	Audio stream recorder
 Name:		%{name}
@@ -36,8 +36,7 @@ tracks will be created.
 
 %install
 rm -fr $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT/%_bindir
-%makeinstall
+%makeinstall_std
 
 %files
 %defattr(-,root,root)
