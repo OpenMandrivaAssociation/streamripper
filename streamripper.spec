@@ -1,5 +1,5 @@
 %define name	streamripper
-%define version 1.64.3
+%define version 1.64.4
 %define release %mkrel 1
 
 Summary:	Audio stream recorder
