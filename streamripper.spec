@@ -11,11 +11,11 @@ URL:		http://sourceforge.net/projects/streamripper
 License:	GPLv2+
 Source0:	http://mesh.dl.sourceforge.net/sourceforge/streamripper/%{name}-%{version}.tar.gz
 Buildroot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	libogg-devel
-BuildRequires:	libvorbis-devel
+BuildRequires:	pkgconfig(ogg)
+BuildRequires:	pkgconfig(vorbis)
 BuildRequires:	libglib2-devel
 BuildRequires:	tre-devel
-BuildRequires:	libmad-devel
+BuildRequires:	pkgconfig(mad)
 
 %description
 Streamripper records shoutcast compatible and live365 streams.
