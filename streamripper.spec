@@ -1,6 +1,6 @@
 %define name	streamripper
 %define version 1.64.6
-%define release %mkrel 2
+%define release  3
 
 Summary:	Audio stream recorder
 Name:		%{name}
@@ -10,7 +10,6 @@ Group:		Sound
 URL:		http://sourceforge.net/projects/streamripper
 License:	GPLv2+
 Source0:	http://mesh.dl.sourceforge.net/sourceforge/streamripper/%{name}-%{version}.tar.gz
-Buildroot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	pkgconfig(ogg)
 BuildRequires:	pkgconfig(vorbis)
 BuildRequires:	libglib2-devel
