@@ -1,6 +1,6 @@
 %define name	streamripper
 %define version 1.64.6
-%define release  3
+%define release  4
 
 Summary:	Audio stream recorder
 Name:		%{name}
