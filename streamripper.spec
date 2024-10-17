@@ -7,7 +7,7 @@ Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Group:		Sound
-URL:		http://sourceforge.net/projects/streamripper
+URL:		https://sourceforge.net/projects/streamripper
 License:	GPLv2+
 Source0:	http://mesh.dl.sourceforge.net/sourceforge/streamripper/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(ogg)
