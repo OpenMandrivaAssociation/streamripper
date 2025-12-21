@@ -10,6 +10,11 @@ Group:		Sound
 URL:		https://sourceforge.net/projects/streamripper
 License:	GPLv2+
 Source0:	http://mesh.dl.sourceforge.net/sourceforge/streamripper/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(ogg)
 BuildRequires:	pkgconfig(vorbis)
 BuildRequires:	libglib2-devel
